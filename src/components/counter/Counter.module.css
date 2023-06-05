@@ -1,0 +1,16 @@
+.counter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2px 8px;
+  gap: 10px;
+
+  background: var(--gray-400);
+  border-radius: 999px;
+}
+
+.counter p {
+  font-size: 0.75rem;
+  color: var(--gray-200);
+}

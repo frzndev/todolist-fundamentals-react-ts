@@ -1,0 +1,52 @@
+.newTaskBar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+}
+
+.newTaskBar > input {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 16px;
+  gap: 8px;
+
+  background: var(--gray-500);
+  color: var(--gray-100);
+
+  border: 1px solid var(--gray-700);
+  border-radius: 8px;
+}
+
+.newTaskBar > input:focus-within {
+  outline: transparent;
+  box-shadow: 0 0 0 2px var(--purple);
+}
+
+.newTaskBar > button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  gap: 8px;
+
+  background: var(--blue-dark);
+  border: 0;
+  border-radius: 8px;
+
+  color: var(--gray-100);
+  font-size: 0.875rem;
+  font-weight: 700;
+  font-style: normal;
+
+  transition: background-color 0.1s;
+}
+
+.newTaskBar button:hover {
+  background: var(--blue);
+}
